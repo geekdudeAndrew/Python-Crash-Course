@@ -7,10 +7,10 @@ loop_restart = ("Y");
 
 while loop_restart == ("Y"):
 
-	Monney = int(input("Welcome to the Imaganary ATM where the numbers are made up and nothing matters. How much money do you want to withdraw today?"));
+	monney = int(input("Welcome to the Imaganary ATM where the numbers are made up and nothing matters. How much money do you want to withdraw today?"));
 
-	if Monney %20 == 0 and Monney < 200:
-		print("here is your Monney");
+	if monney %20 == 0 and monney < 200:
+		print("Here is your Monney");
 	else:
 		print("You have to go inside to withdraw that ammount");
 

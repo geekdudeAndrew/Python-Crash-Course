@@ -18,7 +18,7 @@ favorite_doctors = {
 
 print ("Favorite doctors: \n")
     
-for Doctor in set (favorite_doctors.values()):
-    print (Doctor);
+for doctor in set (favorite_doctors.values()):
+    print (doctor);
 
 #set will show only the unique values. 
